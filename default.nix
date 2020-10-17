@@ -8,15 +8,15 @@ let
       in {
         haskell-nix = super.haskell-nix // {
           custom-tools = super.haskell-nix.custom-tools // {
-            haskell-language-server."0.3.0" = args:
+            haskell-language-server."0.5.1" = args:
               (super.haskell-nix.cabalProject (args // {
                 name = "haskell-language-server";
                 src = super.fetchFromGitHub {
                   owner = "haskell";
                   repo = "haskell-language-server";
-                  rev = "d36bb9929fdd0df76f86d3635067400272f68497";
+                  rev = "e3fe0e7546aa91e44cc56cfe8ec078a026cf533a";
                   sha256 =
-                    "0jzj1a15wiwd4wa4wg8x0bpb57g4xrs99yp24623cjcvbarmwjgl";
+                    "17nzgpiacmrvwsy2fjx6a6pcpkncqcwfhaijvajm16jpdgni8mik";
                   fetchSubmodules = true;
                 };
                 modules =
