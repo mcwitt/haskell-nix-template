@@ -18,7 +18,7 @@ niv init
 
 ## Add [haskell.nix](https://github.com/input-output-hk/haskell.nix)
 ```sh
-niv add haskell.nix --owner input-output-hk --repo haskell.nix
+niv add input-output-hk/haskell.nix
 ```
 
 ## Add Nix files
