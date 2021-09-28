@@ -1,5 +1,7 @@
 # Haskell project setup with [haskell.nix][]
 
+**DEPRECATED**: I'm now using [this](https://github.com/utdemir/hs-nix-template) project instead.
+
 This template was generated using the following steps:
 
 ## Add cachix binary cache
